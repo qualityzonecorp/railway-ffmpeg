@@ -1,5 +1,6 @@
-git init
-git remote add origin https://github.com/your-username/railway-ffmpeg.git
-git add .
-git commit -m "Initial commit with FFmpeg Dockerfile"
-git push -u origin master
+# Move Dockerfile to root
+mv n8nrepo/Dockerfile .
+
+# Optional: remove the now-empty subfolder
+rm -rf n8nrepo
+
